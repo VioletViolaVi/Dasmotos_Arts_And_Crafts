@@ -1,4 +1,5 @@
 /* universal settings */
+
 * {
     margin: 0;
     padding: 0;
@@ -8,31 +9,96 @@
     box-sizing: border-box;
 }
 
-header, main, section, footer {
+main, header, section, footer {
     display: block;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+/* title */
 
+#mainImgBg {
+    background-image: url(/assets/images/pattern.webp);
+    height: 8em;
+    width: 100%;
+    margin-bottom: 2em;
+}
 
+#mainImgBg h1 {
+    text-align: center;
+    color: palegoldenrod;
+    padding-top: 1em;
+}
 
+/* sections */
 
+section {
+    margin: 0em 1em;
+}
 
+#brushes h2, #frames h2, #paint h2, figure, h3, p {
+    margin-bottom: 1em;
+}
 
+#brushes h2, #frames h2, #paint h2, figure {
+    text-align: center;
+}
 
+#brushes h2, #frames h2, #paint h2 {
+    color: white;
+}
 
+#brushes h2 {
+    background-color: lightgreen;
+}
 
+#frames h2 {
+    background-color: pink;
+}
 
+#paint h2 {
+    background-color: lightblue;
+}
 
+#brushes img, #frames img, #paint img {
+    width: 10em;
+    height: 10em;
+}
 
+p {
+    font-size: 0.9em;
+}
 
+strong {
+    color: blue;
+}
 
+/* footer */
 
+footer {
+    background-color: plum;
+    padding: 1em 0em 0em 1em;
+}
 
+footer ul {
+    list-style: none;
+    text-align: center;
+}
 
+footer ul li {
+    padding-bottom: 0.5em;
+}
 
+/* media queries */
+@media (min-width: 576px) {
+    
+}
 
+@media (min-width: 768px) {}
 
+@media (min-width: 992px) {}
 
-
+@media (min-width: 1200px) {}
 
